@@ -25,7 +25,7 @@ app.use(cors());
 
 // DB config
 const connection_url =
-  "mongodb+srv://sandeepdhungana:sandeep@cluster0.2gxq6.mongodb.net/whatsappdb?retryWrites=true&w=majority";
+  "mongodb+srv://sandeepdhungana:<password>@cluster0.2gxq6.mongodb.net/whatsappdb?retryWrites=true&w=majority";
 mongoose.connect(connection_url, {
   useNewUrlParser: true,
   useNewUrlParser: true,
